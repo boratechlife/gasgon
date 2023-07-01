@@ -435,7 +435,6 @@
           </button>
         </form>
       </div>
-      s
     </section>
 
     <section class="banner relative">
