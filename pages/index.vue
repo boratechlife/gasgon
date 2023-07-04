@@ -405,7 +405,10 @@
           </div>
         </div>
 
-        <form action="">
+        <form
+          action="https://formsubmit.co/fieldservant18@gmail.com"
+          method="POST"
+        >
           <div class="flex flex-col gap-[84px]">
             <input
               name="name"
@@ -416,7 +419,7 @@
             <input
               name="email"
               class="py-5 px-8 border border-[#DADDDB] rounded-md max-w-[450px] w-full bg-white text-2xl text-[#727171] leading-[1.12] -tracking-[1.25px]"
-              type="text"
+              type="email"
               placeholder="Your email"
             />
 
