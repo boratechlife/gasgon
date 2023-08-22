@@ -1,6 +1,6 @@
 <template>
-  <div id="HomePage">
-    <section class="hero isolate relative">
+  <div>
+    <section id="home-page" class="hero isolate relative">
       <div class="z-[1] inset-0 relative h-[670px]">
         <div
           style="
@@ -43,6 +43,7 @@
 
     <section
       class="about bg-white pt-24 px-10 lg:pl-[198px] lg:pr-[60px] pb-[150px] lg:pb-[260px] flex justify-center"
+      id="about"
     >
       <div
         class="grid grid-cols-1 md:grid-cols-2 gap-28 md:gap-5 lg:gap-20 max-w-7xl w-full"
@@ -65,8 +66,9 @@
             Gasgon empower children from disadvantaged background by helping
             them with Educational expenses .We strongly believe that every child
             deserves quality education ,we do this by ensuring we provide
-            financial assistance for school fees, books and uniforms making sure
-            that no child is behind due to financial challenges. <br /><br />
+            financial assistance for school fees,bags, books and uniforms making
+            sure that no child is behind due to financial challenges.
+            <br /><br />
             Apart from education support, we also offer computer training
             programs to vulnerable individuals especially the higher percentage
             being youths. In the current era of digital age, computer literacy
@@ -96,7 +98,7 @@
       </div>
     </section>
 
-    <section class="courses bg-[#EFEFEF] pt-8 px-5 md:px-10">
+    <section id="causes" class="courses bg-[#EFEFEF] pt-8 px-5 md:px-10">
       <h2
         class="uppercase text-center font-inter text-[28px] font-medium mb-10 md:mb-5"
       >
@@ -322,9 +324,74 @@
           </div>
         </div>
       </div>
+
+      <!-- CHURCH PLANTING -->
+      <div
+        class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 md:gap-6 lg:gap-24 pb-5 lg:pb-[156px] pt-10"
+      >
+        <div>
+          <div
+            class="relative w-full lg:w-[484px] h-[500px] lg:h-[658px] bg-white pt-12 pr-3 lg:pr-[26px]"
+          >
+            <img
+              src="/images/woman.webp"
+              class="ml-auto w-[250px] lg:w-auto"
+              width="346"
+              height="392"
+              alt=""
+            />
+
+            <div
+              class="absolute left-0 bottom-20 lg:bottom-24 after:content-[''] after:bg-brand-green-1 after:h-full after:w-full after:absolute after:-top-2.5 after:-right-3"
+            >
+              <img
+                src="/mission.jpeg"
+                class="relative z-[1] w-[200px] lg:w-auto"
+                width="282"
+                height="321"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <div
+            class="lg:max-w-[410px] bg-white pt-6 px-[26px] h-max pb-10 lg:pb-[160px]"
+          >
+            <h4
+              class="text-brand-washed-red font-inter font-medium text-xl lg:text-[28px] mb-5 uppercase -tracking-[1.4px] leading-[1.12]"
+            >
+              MISSION WORK & TRAINING
+            </h4>
+            <p
+              class="font-poppins font-light leading-[1.76] tracking-[.49px] text-sm"
+            >
+              All Nations Bible & School of Missions is fulfilling the great
+              commission commanded by Our Jesus Christ in Mathew 28:19-20 and
+              that's our vision. Our mission is to missionaries,evangelists and
+              church planters to reach the Unreached People Groups Kenya. These
+              communities include: Okiek,Dorobos,
+              Njemps,Somalis,Pokots,Turkana,Teso and Coastal Moslems community.
+              We're located in Turbo town. We're appealing for your support and
+              prayers to meet our target. Pray for us that our heavenly father
+              may provide for this ministry. Pray and support us with: NIV
+              Bibles for church planters,books and uniforms for pupils and
+              students from poor and vulnerable families including orphans,food,
+              tuition support, clothes accommodation fee, medical support and
+              transport. Once again we thank you and looking forward for your
+              partnerships with us in any area that God has spoken to you.
+              Praise the Lord and Glory to God. Amen
+            </p>
+          </div>
+        </div>
+      </div>
     </section>
 
-    <section class="team bg-white pt-[75px] pb-[150px] lg:pb-[300px] px-12">
+    <section
+      id="team"
+      class="bg-white pt-[75px] pb-[150px] lg:pb-[300px] px-12"
+    >
       <h2
         class="text-center text-4xl md:text-5xl lg:text-[56px] font-inter text-black uppercase mb-16"
       >
@@ -356,7 +423,7 @@
       </div>
     </section>
 
-    <section class="contact bg-white px-10 lg:px-[132px] pt-20 pb-8">
+    <section id="contact-us" class="bg-white px-10 lg:px-[132px] pt-20 pb-8">
       <h2
         class="text-center text-4xl font-inter text-black uppercase mb-20 lg:mb-[105px]"
       >
@@ -440,7 +507,7 @@
       </div>
     </section>
 
-    <section class="banner relative">
+    <section id="donate" class="banner relative">
       <div class="relative z-[1] px-10 lg:px-[132px]">
         <div
           class="flex flex-col lg:flex-row gap-10 lg:gap-[140px] items-center lg:max-w-6xl lg:mx-auto"
